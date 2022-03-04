@@ -1,0 +1,78 @@
+.navbar{
+	background: rgba(0,0,0,0.5) !important;
+}
+.section2{
+	float: left;
+	clear: both;
+	width: 100%;
+	background-image: url("../images/bg.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 200px 0px;
+}
+.section3{
+	background-color: white;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 50px 0px;
+}
+.circle{
+	border-radius: 100%;
+}
+.for-those{
+	margin-top: 70px;
+}
+.footer{
+	background-color: black;
+	float: left;
+	clear: both;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 20px 0px;
+}
+@media screen and (max-width: 416px){
+	.display-2{
+		font-size: 35px;
+	}
+	.display-4{
+		font-size: 25px;
+	}
+	.for-those{
+		font-size: 40px;
+	}
+	.section2{
+		float: left;
+		clear: both;
+		width: 100%;
+		background-image: url("../images/bg.jpg");
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		padding: 80px 0px;
+	}
+	.section3{
+		background-color: white;
+		float: left;
+		clear: both;
+		width: 100%;
+		padding: 30px 0px;
+	}
+}
+@media screen and (max-width: 320px){
+	.display-2{
+		font-size: 35px;
+	}
+	.display-4{
+		font-size: 25px;
+	}
+	.for-those{
+		font-size: 40px;
+	}
+	.we-salute-text
+	{
+		font-size: 25px !important;
+	}
+}

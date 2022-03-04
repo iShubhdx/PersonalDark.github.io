@@ -1,0 +1,176 @@
+*{
+	margin: 0; padding: 0;
+	font-family: calibri;
+}
+body{
+	background-color: powderblue;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*navbar-start*/
+.navbar-brand-logo{
+	max-height: 45px;
+}
+.bg-nav{
+	background-color: rgba(0,0,0,0.8);
+}
+/*navbar-over*/
+
+/*header start*/
+.header{
+	background-image: url('../images/background1.png');
+	background-attachment: fixed;
+	background-repeat:  no-repeat;
+	background-size: cover;
+	width:100%;
+	padding: 270px 0;
+}
+.head-text-font-family{
+	font-family: arial;
+}
+/*header over*/
+
+/*section 2 start*/
+.section-2{
+	background-color: white;
+	padding: 120px 0;
+}
+.border{
+	border: 1px solid rgba(0,0,0,0.2)!important;
+}
+.bottom-line{
+	border-top:5px solid blue;
+	width: 50px;
+}
+.box{
+	transition: 0.5s;
+}
+.box:hover{
+	background-color: #000;
+}
+.box-test{
+	transition: 0.5s;
+}
+.box:hover .box-test{
+	color: white;
+}
+/*section 2 over*/
+.section-3{
+	padding: 120px 0;
+	background-color: #FAFAFA;
+}
+/*services started*/
+.services{
+	padding: 120px 0;
+	background-color: #FFF;
+}
+/*services started*/
+/*section 4 started*/
+.section-4{
+	background-color: #FAFAFA;
+	padding: 120px 0;
+}
+/*section 4 over*/
+/*section 5 started*/
+.section-5{
+	background-image: url('../images/bge.png');
+	background-attachment: fixed;
+	background-repeat:  no-repeat;
+	background-size: cover;
+	width:100%;
+	padding: 100px 0;
+}
+/*section 5 over*/
+
+/*pricings start*/
+.pricings{
+	background-color: #FAFAFA;
+	padding: 120px 0;	
+}
+.price{
+	width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #6195FF;
+    display: grid;
+    place-items:center;
+}
+/*pricings over*/
+
+/*section-6 started*/
+.section-6{
+	position: relative;
+	padding: 100px 0;
+}
+.bg-img{
+	background-image: url('../images/background2.jpg');
+	position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img .overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .8;
+	background: #1C1D21;
+}
+.team-img{
+	width: 80px!important;
+	border-radius: 50%!important;
+}
+/*section-6 over*/
+
+/*our team start*/
+.our-team{
+	background:white;
+	padding: 120px 0;
+}
+/*our team start*/
+
+/*section-7 started*/
+.section-7{
+	background:#FAFAFA;
+	padding: 120px 0;
+}
+/*section-7 over*/
+
+/*section-8 started*/
+.section-8{
+	background:white;
+	padding: 120px 0;
+}
+/*section-8 over*/
+
+/*footer started*/
+footer{
+	background:black;
+	padding: 50px 0;
+}
+.fa{
+	margin: 10px 12px;
+	background-color: rgba(255,255,255,0.7);
+	color: #000;
+	padding: 17px 15px;
+	width: 60px;
+	text-align: center;
+	font-size: 22px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.fa:hover{
+	background-color: black;
+	color: rgba(255,255,255,0.7);
+}
+/*footer over*/
